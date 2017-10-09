@@ -18,15 +18,14 @@ html {
 }
 
 body {
-	background: $white;
+	background-color: white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  margin: 20 auto;
+  padding: 0 70px;
   width: 100%;
 }
 
@@ -53,17 +52,26 @@ h1 {
 
 h2 {
   font-size: 24px;
+  a {
+    color: inherit;
+  }
 }
 
 h3 {
   font-size: 20px;
+
 }
 
 h4 {
   font-size: 18px;
   color: $gray;
 }
-
+h5 {
+  font-size: 14px;
+  a {
+    color: inherit;
+  }
+}
 p {
   margin: 15px 0;
 }
@@ -73,7 +81,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: red;
   }
 }
 
@@ -129,7 +137,12 @@ img {
   color: $black;
   background: $lightGray;
 }
-
+#headerblob {
+  position: absolute;
+  left: 20%;
+  top: 165px;
+  width: 80%;
+}
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
@@ -151,11 +164,10 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 10px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -232,7 +244,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: red;
     }
   }
 }
@@ -241,8 +253,52 @@ nav {
 // .main
 //
 
+.home .title {
+  text-align: left
+}
+
+.education td, .profile th{
+  //border-bottom: 1px solid;
+  //border-left: 1px solid;
+  border-color: #586E75;
+  padding:10px 30px;
+}
+
+.education th{
+  //border-bottom: 1px solid;
+  //border-left: 1px solid;
+  padding:5px 20px;
+}
+
+.posts > .education{
+  padding-bottom: 1em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .timeline{
+  padding-bottom: 1em;
+  border-bottom: 1px solid $lightGray;
+}
+.posts > .research{
+  padding-bottom: 1em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.t2when{
+color:#FF4500;
+}
+.t2who{
+color:#32CD32;
+}
+
+.t3authors{
+color: #FFA500;
+}
+.t3pulishtime{
+color: #FF4500;
+}
+
 .posts > .post {
-  padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
 

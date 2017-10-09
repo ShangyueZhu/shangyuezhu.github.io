@@ -3,16 +3,74 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  <h1>Welcome to Blog!</h1>
+
+  <div class="education">
+        <h2>Education</h2>
+        <table>
+            <tr style="border-bottom: 2px solid #93A1A1">
+                <td style="border-right: 2px solid #93A1A1">2015-2017</td>
+                <td>Ball State University Computer Science M.S. </td>
+            </tr>
+                <td style="border-right: 2px solid #93A1A1;">2012-2014</td>
+                <td>Ball State University (1+2+1 program exchange program) Computer Science B.S.  </td>
+            </tr>
+            <tr>
+                <td style="border-right: 2px solid #93A1A1;">2011-2015</td>
+                <td>Xi'An University of Post and Telecommunication Computer Science B.S.</td>
+            </tr>
+        </table>
+    </div>
+
+<div class="timeline">
+  <h2>Timeline</h2>
+  <span class="t2when">2017 - now: </span>
+  <span class="t2who">Activity Recognition</span>
+  <span>Human Activity Recognition based on Radar sensor.</span>
+  <br>
+  <span class="t2when">2016-2017: </span>
+  <span class="t2who">Localization and Tracking</span>
+  <span>Distance Based User Localization and Tracking with Mechanical Ultrasonic Beamforming.</span>
+  <br>
+  <span class="t2when">2016 Sep - Nov: </span>
+  <span class="t2who">Occupation Detection</span>
+  <span>Room Occupation Detection based on Ultrasonic sensor.</span>
+  <br>
+</div>
+
+  <div class="research">
+    <h2><a href="{{ site.baseurl }}/blog">Research Experience</a></h2>
+    {% for post in site.posts %}
     <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      {% if post.title contains "Ultrasonic" %}
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      {% endif %}
     </article>
   {% endfor %}
+      <h5><a href="{{ site.baseurl }}/blog">Read More</a></h5>
+  </div>
+
+<div class="pulications">
+  <h2><a href="{{ site.baseurl }}/pulication">Pulications</a></h2>
+  <span>[PDF soon] Distance Based User Localization and Tracking with Mechanical Ultrasonic Beamforming,</span>
+  <span class="t3authors">Shangyue Zhu, Hanqing Guo, Junhong Xu, Shaoen Wu</span>
+  <span class="t3pulishtime">Accepted by ICNC 2018</span>
+  <br>
+  <br>
 </div>
+</div>
+
+<!--<div class="posts">-->
+  <!--{% for post in site.posts %}-->
+    <!--<article class="post">-->
+
+      <!--<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>-->
+
+      <!--<div class="entry">-->
+        <!--{{ post.excerpt }}-->
+      <!--</div>-->
+
+      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
+    <!--</article>-->
+  <!--{% endfor %}-->
+<!--</div>-->
