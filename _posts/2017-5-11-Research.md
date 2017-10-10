@@ -3,8 +3,21 @@ layout: post
 title: Tracing location based on Ultrasonic sensor !
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+This research work focused on addressing four challenges as following <a href="{{ site.baseurl }}/images/sensor.pdf">[PDF]</a>:
 
-![_config.yml]({{ site.baseurl }}/images/Poster_shangyue.pdf)
+1. <span class="t3pulishtime">Noise in ultrasonic measurement,</span> designed a robust mechanical beamforming ultrasonic system that expands the ultrasonic sensing range and capability of conventional ultrasonic sensors
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/ShangyueZhu/shangyuezhu.github.io) on GitHub.
+2. <span class="t3pulishtime">Preprocessing outliers,</span> designed a data processing algorithm to remove exceptional and noisy data from the collected data, and transform the multiple sampled data sets into a single data set.
+
+3. <span class="t3pulishtime">Identify target location,</span> designed a contrastive divergence learning algorithm to localize a user based on the sensed distance data with high accuracy.
+
+4. <span class="t3pulishtime">Tracking location,</span> proposed a Binary Backoff (BNB) algorithm to track down the change of user location.
+
+![poster]({{ site.baseurl }}/images/Poster_shangyue.png)
+
+
+<span><a href="{{ site.baseurl }}/images/sensor.pdf">[PDF]</a> Distance Based User Localization and Tracking with Mechanical Ultrasonic Beamforming,</span>
+<span class="t3authors">Shangyue Zhu, Hanqing Guo, Junhong Xu, Shaoen Wu</span>
+<span class="t3pulishtime">Accepted by ICNC 2018</span>
+<br>
+<br>
