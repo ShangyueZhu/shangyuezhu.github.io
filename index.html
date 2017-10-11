@@ -42,9 +42,9 @@ layout: default
     <h2><a href="{{ site.baseurl }}/blog">Research Experience</a></h2>
     {% for post in site.posts %}
     <article class="post">
-      {% if post.title contains "Ultrasonic" %}
+
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      {% endif %}
+
     </article>
   {% endfor %}
       <h5><a href="{{ site.baseurl }}/blog">Read More</a></h5>
@@ -52,7 +52,7 @@ layout: default
 
 <div class="pulications">
   <h2><a href="{{ site.baseurl }}/pulication">Pulications</a></h2>
-  <span>[PDF soon] Distance Based User Localization and Tracking with Mechanical Ultrasonic Beamforming,</span>
+  <span><a href="{{ site.baseurl }}/images/sensor.pdf">[PDF]</a> Distance Based User Localization and Tracking with Mechanical Ultrasonic Beamforming,</span>
   <span class="t3authors">Shangyue Zhu, Hanqing Guo, Junhong Xu, Shaoen Wu</span>
   <span class="t3pulishtime">Accepted by ICNC 2018</span>
   <br>
