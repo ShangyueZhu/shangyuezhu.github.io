@@ -14,6 +14,7 @@ This research work focused on addressing four challenges as following <a href="{
 
 4. <span class="t3pulishtime">Tracking location,</span> proposed a Binary Backoff (BNB) algorithm to track down the change of user location.
 
+The following <a href="{{ site.baseurl }}/images/Poster_shangyue.png">Poster</a> provides a brief introduction of this research work. 
 ![poster]({{ site.baseurl }}/images/Poster_shangyue.png)
 
 
