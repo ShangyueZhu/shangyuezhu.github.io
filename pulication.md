@@ -21,14 +21,14 @@ permalink: /pulication/
 <span class="t3pulishtime">Submitted to ICRA 2018</span>
 <br>
 <br>
-<span><a href="https://mc.manuscriptcentral.com/downloads/linkpool/prod1/ieee-access/2017/3/s1-ln262550671795442991-1939656818Hwf-14022166IdV78197685026255067PDF_HI0001.pdf">[PDF]</a>
+<span><a href="{{ site.baseurl }}/images/Convolutional_Neural_Network.pdf">[PDF]</a>
 An Residual Convolutional Neural Network For Facial Keypoint Detection with Missing Labels,</span>
 <span class="t3authors">Shaoen Wu, Junhong Xu, Shangyue Zhu, Hanqing Guo, Honggang Wang, Chonggang Wang</span>
 <span class="t3pulishtime">IEEE 2017</span>
 <br>
 <br>
 <h3> Full Duplex Wireless Communications </h3>
-<span>[PDF soon] Realtime Software Defined Self-Interference Cancellation Based on Machine Learning for In-Band Full Duplex Wireless Communications,</span>
+<span><a href="{{ site.baseurl }}/images/Self_Interference_Cancellation.pdf">[PDF]</a> Realtime Software Defined Self-Interference Cancellation Based on Machine Learning for In-Band Full Duplex Wireless Communications,</span>
 <span class="t3authors">Hanqing Guo, Junhong Xu, Shangyue Zhu, Shaoen Wu</span>
 <span class="t3pulishtime">Accepted by ICNC 2018</span>
 <br>
