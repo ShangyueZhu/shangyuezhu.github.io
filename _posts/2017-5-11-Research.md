@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tracing location based on Ultrasonic sensor ! 
-description: This work designs and develops a novel noninvasive distance based user localization and tracking solution, DiLT, for smart systems. DiLT collects data by using commodity off-the-shelf ultrasonic sensors for minimal invasion of privacy, which consists of a mechanical ultrasonic beam-forming design for omni-space sensing, a contrastive divergence learning to localize a user and a binary back-off algorithm to track the motion of the user.
+description: This research work designs and develops a noninvasive distance based user localization and tracking solution, DiLT, for smart systems. DiLT consists of a mechanical ultrasonic beam-forming design for omni-space sensing, a contrastive divergence learning to localize a user and a binary back-off algorithm to track the motion of the user. The research purpose is tracing the residents’ location in the smart home. 
 ---
 
 <span><a href="{{ site.baseurl }}/images/sensor.pdf">[PDF]</a> Distance Based User Localization and Tracking with Mechanical Ultrasonic Beamforming,</span>
