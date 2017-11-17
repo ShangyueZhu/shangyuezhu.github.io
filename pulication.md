@@ -39,9 +39,9 @@ A Deep Residual Convolutional Neural Network For Facial Keypoint Detection with 
 <span class="t3pulishtime">International Conference on Computing, Networking and Communications (ICNC), Maui, Hawaii, USA. March 5-8, 2018</span>
 <br>
 <br>
-<span><a href="{{ site.baseurl }}/images/Self_Interference_Cancellation.pdf">[PDF]</a> Realtime Software Defined Self-Interference Cancellation Based on Machine Learning for In-Band Full Duplex Wireless Communications,</span>
-<span class="t3authors">Hanqing Guo, Junhong Xu, <b>Shangyue Zhu</b>, Shaoen Wu</span>
-<span class="t3pulishtime">International Conference on Computing, Networking and Communications (ICNC), Maui, Hawaii, USA. March 5-8, 2018</span>
+<span><a href="{{ site.baseurl }}/images/IBFD-IoT.pdf">[PDF]</a> In-band Full Duplex Wireless Communications and Networking for IoT Devices: Progress, Challenges and Opportunities,</span>
+<span class="t3authors">Hanqing Guo, Junhong Xu, <b>Shangyue Zhu</b>, Shaoen Wu, Honggang Wang</span>
+<span class="t3pulishtime">Elsevier Future Generation Computer Systems Journal, accepted, Oct. 2017</span>
 <br>
 <br>
 ### Contact me
