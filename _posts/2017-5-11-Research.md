@@ -6,7 +6,7 @@ description: This research work designs and develops a noninvasive distance base
 
 <span><a href="{{ site.baseurl }}/images/sensor.pdf">[PDF]</a> Distance Based User Localization and Tracking with Mechanical Ultrasonic Beamforming,</span>
 <span class="t3authors">Shangyue Zhu, Hanqing Guo, Junhong Xu, Shaoen Wu</span>
-<span class="t3pulishtime">Accepted by ICNC 2018</span>
+<span class="t3pulishtime">International Conference on Computing, Networking and Communications (ICNC), Maui, Hawaii, USA. March 5-8, 2018</span>
 
 This research work focused on addressing four challenges as following:
 
