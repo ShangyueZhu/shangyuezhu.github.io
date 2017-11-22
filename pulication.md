@@ -33,6 +33,12 @@ A Deep Residual Convolutional Neural Network For Facial Keypoint Detection with 
 <span class="t3pulishtime">Elsevier Signal Processing Journal, accepted, Oct. 2017</span>
 <br>
 <br>
+<span><a href="">[PDF]</a>
+Masked Loss Residual Convolutional Neural Network For Facial Keypoint Detection,</span>
+<span class="t3authors">Junhong Xu, Shaoen Wu, <b>Shangyue Zhu</b>, Hanqing Guo, Honggang Wang, Qing Yang,</span>
+<span class="t3pulishtime">10th EAI International Conference on Mobile Multimedia Communications, Chongqing, China, June, 2017</span>
+<br>
+<br>
 <h3> Full Duplex Wireless Communications </h3>
 <span><a href="{{ site.baseurl }}/images/Self_Interference_Cancellation.pdf">[PDF]</a> Realtime Software Defined Self-Interference Cancellation Based on Machine Learning for In-Band Full Duplex Wireless Communications,</span>
 <span class="t3authors">Hanqing Guo, Junhong Xu, <b>Shangyue Zhu</b>, Shaoen Wu</span>
@@ -42,6 +48,12 @@ A Deep Residual Convolutional Neural Network For Facial Keypoint Detection with 
 <span><a href="{{ site.baseurl }}/images/IBFD-IoT.pdf">[PDF]</a> In-band Full Duplex Wireless Communications and Networking for IoT Devices: Progress, Challenges and Opportunities,</span>
 <span class="t3authors">Hanqing Guo, Junhong Xu, <b>Shangyue Zhu</b>, Shaoen Wu, Honggang Wang</span>
 <span class="t3pulishtime">Elsevier Future Generation Computer Systems Journal, accepted, Oct. 2017</span>
+<br>
+<br>
+<h3> Computer Vision </h3>
+<span><a href="">[PDF]</a> Real Time Video Stitching by Exploring Temporal and Spatial Features,</span>
+<span class="t3authors">Shaoen Wu, Kelly Blair, Junhong Xu, <b>Shangyue Zhu</b>, Hanqing Guo, Kai Wang, Lei Cheng</span>
+<span class="t3pulishtime">10th EAI International Conference on Mobile Multimedia Communications, Chongqing, China, June, 2017</span>
 <br>
 <br>
 ### Contact me
