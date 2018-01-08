@@ -12,7 +12,7 @@ permalink: /pulication/
 <br>
 <span><a href="{{ site.baseurl }}/images/Human_Activity_Recognition_Based_Radar.pdf">[PDF]</a> Indoor Human Activity Recognition Based on Ambient Radar with Signal Processing and Machine Learning,</span>
 <span class="t3authors"><b>Shangyue Zhu</b>, Junhong Xu, Hanqing Guo, Qiwei Liu, Shaoen Wu, Honggang Wang</span>
-<span class="t3pulishtime">Submitted to IEEE ICC 2018</span>
+<span class="t3pulishtime">IEEE International Conference on Communications (ICC), Kansas City, MO, USA. May 20-24, 2018</span>
 <br>
 <br>
 <span><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7851022">[PDF]</a> Survey on Prediction Algorithms in Smart Homes,</span>
