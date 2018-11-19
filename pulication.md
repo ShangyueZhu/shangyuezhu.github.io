@@ -58,4 +58,4 @@ Masked Loss Residual Convolutional Neural Network For Facial Keypoint Detection,
 <br>
 ### Contact me
 
-[zhushangyue@gamil.com](mailto:zhushangyue@gamil.com)
+[szhu7@nd.edu](mailto:szhu7@nd.edu)
