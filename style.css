@@ -84,8 +84,8 @@ h1, h2 {
       .circular--portrait img { width: 100%; height: auto; margin-left: -50px;  } */
 
 .circular--portrait { 
-    position: relative; width: 150px; height: 150px; 
+    position: relative; width: 200px; height: 200px; 
     overflow: hidden; border-radius: 50%; 
     /* display:inline-block; */
     vertical-align:middle;} 
-.circular--portrait img { width: 100%; height: auto; }
+.circular--portrait img { width: 100%; height: 100%; }
