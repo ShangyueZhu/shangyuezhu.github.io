@@ -50,3 +50,9 @@ h1, h2 {
 #mainLeft {
     border-right: 1px solid lightgray;
 }
+.t3authors{
+    color: 	#FFA500;
+    }
+.t3pulishtime{
+    color: #FF4500;
+}
