@@ -1,102 +1,76 @@
----
-layout: default
----
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<title>Shangyue Zhu</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	</head>
 
-<div class="posts">
-  <h1>Welcome to Blog!</h1>
-    <div class="pulications">
-        <span>Hello, I am Shangyue, a Ph.D. Student. My research focuses on smart home,
-            activity recognition, machine learning and signal processing.
-            I also like participating in studying deep learning and web development. Thanks for visiting my website.
-        </span>
-        <br>
-        <br>
-        <span class="t3pulishtime">Research Label:</span> <span class="t3authors">Smart Home, Activities Recognition, Machine learning, Deep learning </span>
-        <br>
-        <br>
-    </div>
-
-  <div class="pulications">
-        <h2><a href="{{ site.baseurl }}/pulication">Pulications</a></h2>
-        <span><a href="{{ site.baseurl }}/images/sensor.pdf">[PDF]</a> Distance Based User Localization and Tracking with Mechanical Ultrasonic Beamforming,</span>
-        <span class="t3authors"><b>Shangyue Zhu</b>, Hanqing Guo, Junhong Xu, Shaoen Wu</span>
-        <span class="t3pulishtime">International Conference on Computing, Networking and Communications (ICNC), Maui, Hawaii, USA. March 5-8, 2018</span>
-        <br>
-        <br>
-        <span><a href="{{ site.baseurl }}/images/Human_Activity_Recognition_Based_Radar.pdf">[PDF]</a> Indoor Human Activity Recognition Based on Ambient Radar with Signal Processing and Machine Learning,</span>
-        <span class="t3authors"><b>Shangyue Zhu</b>, Junhong Xu, Hanqing Guo, Qiwei Liu, Shaoen Wu, Honggang Wang</span>
-        <span class="t3pulishtime">IEEE International Conference on Communications (ICC), Kansas City, MO, USA. May 20-24, 2018</span>
-        <h5><a href="{{ site.baseurl }}/pulication">Read More</a></h5>
-  </div>
-
-  <div class="education">
-        <h2>Education</h2>
-        <table>
-            <tr style="border-bottom: 2px solid #93A1A1">
-                <td style="border-right: 2px solid #93A1A1">2018-Present</td>
-                <td>University of Notre Dame Computer Science Ph.D. </td>
-            <tr style="border-bottom: 2px solid #93A1A1">
-                <td style="border-right: 2px solid #93A1A1">2015-2017</td>
-                <td>Ball State University Computer Science M.S. </td>
-            </tr>
-                <td style="border-right: 2px solid #93A1A1;">2012-2014</td>
-                <td>Ball State University (1+2+1 program exchange program) Computer Science B.S.  </td>
-            </tr>
-            <tr>
-                <td style="border-right: 2px solid #93A1A1;">2011-2015</td>
-                <td>Xi'An University of Post and Telecommunication Computer Science B.S.</td>
-            </tr>
-        </table>
-    </div>
-
-<div class="timeline">
-  <h2>Timeline</h2>
-  <span class="t2when">2017 Summer: </span>
-  <span class="t2who">Activity Recognition</span>
-  <span>Human Activity Recognition based on Radar sensor.</span>
-  <br>
-  <span class="t2when">2016-2017: </span>
-  <span class="t2who">Localization and Tracking</span>
-  <span>Distance Based User Localization and Tracking with Mechanical Ultrasonic Beamforming.</span>
-  <br>
-  <span class="t2when">2016 Jan - May: </span>
-  <span class="t2who">Occupation Detection</span>
-  <span>Room Occupation Detection based on Ultrasonic sensor.</span>
-  <br>
-  <span class="t2when">2015 Sep - Dec: </span>
-  <span class="t2who">Sequence-Based Software Specification</span>
-  <span>Purpose is to develop a formal system model for code development and testing.</span>
-  <br>
-</div>
-
-  <div class="research">
-    <h2><a href="{{ site.baseurl }}/blog">Research Experience</a></h2>
-    {% for post in site.posts %}
-    <article class="post">
-
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <h4>{{ post.description }}</h4>
-
-
-    </article>
-  {% endfor %}
-      <h5><a href="{{ site.baseurl }}/blog">Read More</a></h5>
-  </div>
-
-
-</div>
-
-<!--<div class="posts">-->
-  <!--{% for post in site.posts %}-->
-    <!--<article class="post">-->
-
-      <!--<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>-->
-
-      <!--<div class="entry">-->
-        <!--{{ post.excerpt }}-->
-      <!--</div>-->
-
-      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
-    <!--</article>-->
-  <!--{% endfor %}-->
-<!--</div>-->
+	<body>
+		<header id="header">
+			<!-- resume header with your name and title -->
+			<h1><b>Shangyue</b> Zhu</h1>
+			<hr>
+			YOUR TITLE
+			<hr>
+		</header>
+		<main>
+			<article id="mainLeft">
+				<section>
+					<h2>CONTACT</h2>
+					<!-- contact info including social media -->
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:your-email@example.com">your-email@example.com</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <a href="github.com/gh-username">gh-username</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <a href="linkedin.com/linkedin-username">linkedin-username</a>
+                    </p>
+				</section>
+				<section>
+					<h2>SKILLS</h2>
+					<!-- your skills AKA "buzzwords" -->
+                    <p>HTML, CSS, GitHub, VS Code...</p>
+				</section>
+				<section>
+					<h2>EDUCATION</h2>
+					<!-- your education -->
+                    <b>YOUR MAJOR</b>
+                    <p>
+                        University of Notre Dame
+                    </p>
+                    <p>
+                        2018-2023
+                    </p>
+				</section>            
+			</article>
+			<article id="mainRight">
+				<section>
+					<h2>ABOUT</h2>
+					<!-- about you -->
+					<p>A brief paragraph about you and what kind of company you want to work for.</p>
+				</section>
+				<section>
+					<h2>WORK EXPERIENCE</h2>
+					<!-- your work experience -->
+                    <h3><b>JOB TITLE</b></h3>
+                    <p>
+                            Company Name | 2008 - 2010
+                    </p>
+                    <p>
+                            Describe what you did in this position with one summary sentence and no more than 3 bullet points with specific highlights
+                    </p>
+                    <ul>
+                            <li>Cool accomplishment</li>
+                            <li>Cool accomplishment</li>
+                            <li>Cool accomplishment</li>
+                    </ul>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>
