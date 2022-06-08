@@ -5,15 +5,20 @@ body {
     margin: auto;
 }
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     letter-spacing: 0.em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    
 }
 main { 
     display: grid;
@@ -30,11 +35,19 @@ section {
 }
 
 i {
+    font-size: 1.4em;
     margin-right: .5em;
+}
+li {
+    font-size: 1.4em;
 }
 
 p {
-    margin: .2em auto
+    font-size: 1.4em;
+    margin: .2em auto;
+}
+p1 {
+    font-size: 1.4em;
 }
 
 hr {
@@ -56,3 +69,14 @@ h1, h2 {
 .t3pulishtime{
     color: #5a5858;
 }
+.circular--square { 
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%; 
+    border-bottom-left-radius: 50% 50%; 
+}
+/* .circular--portrait { position: relative;
+     width: 200px; height: 200px;
+      overflow: hidden; border-radius: 50%; } 
+      .circular--portrait img { width: 100%; height: auto; } */
+
