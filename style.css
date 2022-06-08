@@ -83,6 +83,6 @@ h1, h2 {
 .circular--portrait { 
     position: relative; width: 150px; height: 150px; 
     overflow: hidden; border-radius: 50%; 
-    display:inline-block;
+    /* display:inline-block; */
     vertical-align:middle;} 
 .circular--portrait img { width: 100%; height: auto; }
