@@ -55,6 +55,9 @@ hr {
     background-color: lightgray;
     height: 1px;
 }
+span{
+    font-size: 1.4em;
+}
 
 h1, h2 {
     font-weight: 100;
