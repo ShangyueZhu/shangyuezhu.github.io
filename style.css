@@ -22,7 +22,7 @@ h3 {
 }
 main { 
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 35% 65%;
     margin-top: 3em;
 }
 header {
@@ -84,7 +84,7 @@ h1, h2 {
       .circular--portrait img { width: 100%; height: auto; margin-left: -50px;  } */
 
 .circular--portrait { 
-    position: relative; width: 200px; height: 200px; 
+    position: relative; width: 180px; height: 180px; 
     overflow: hidden; border-radius: 50%; 
     /* display:inline-block; */
     vertical-align:middle;} 
