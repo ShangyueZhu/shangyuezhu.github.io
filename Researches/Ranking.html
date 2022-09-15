@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<title>Shangyue Zhu CV</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	</head>
+
+	<body>
+		<header id="header">
+			<!-- resume header with your name and title -->
+			<h1>Welcome to <b>Shangyue</b>'s Blog</h1>
+			<hr>
+    		<p1><a href="https://shangyuezhu.github.io/">Home</a></p1>   |   <p1><a href="/research.html">Research</a></p1>   | <p1><a href="/public.html">Public</a> </p1>
+			<hr>
+		</header>
+		
+        <article id="mainLeft">
+            <section>
+            <h1>Video Ranking System</h1>
+            <br>
+
+            <h3><b>Research Description</b></h3>
+            <p>This research is a spin-off of short video research, 
+                which aims to generate a ranked list from a few hundred candidate videos for personalized recommendations. 
+            
+            <!-- The problem of the research can be simplified to find the data that possesses 
+            the characteristic amount of jumping in a string of time sequence data.
+            The purpose of this research is to extract the motion information when jumping, such as jumping
+            up and down. 
+            The data comes from a specific muscle sensor, which records muscle stretch during
+            jumping. Through Recurrent Neural Network modeling, the movement characteristics of the jump
+            are separated, and extracted the jump information to recognize the specific activities.  </p> -->
+            <ul>    
+                
+                <li>Purpose. Create a video ranking list based on web log information. </li>
+                <li>Challenge.Data preprocessing (feature extraction) for complex log files, overfitting for small datasets.</li>
+                <li>Data. The website log data records the browsing time of the user, clicks on the link,
+                     and the source content of the webpage contains video metadata such as duration and bit rate. </li>
+            </ul>
+            <br><br>
+
+            <h3><b>Data Pre-processing</b></h3>
+            <p>Create Python scripts to filter the  </p>
+
+            <h3><b>Model architecture</b></h3>
+            <p>Input output  </p>
+            <img src="/Images/ShortVideos/model_rank.png" width="850" height="650" />
+              
+			<h3><b>Research Method</b></h3>
+            <img src="/Images/ShortVideos/training_model.png" width="850" height="650" />
+            <!-- <img src="/Images/Figur8/jump.png" width="450" height="350" />
+            <img src="/Images/Figur8/model.png" width="400" height="350" /> -->
+			<p>
+               Learning-to-ranking 
+
+               PointWise 
+
+               GBDT
+
+            </p>
+            <!-- <ul>    
+                <li>Labeling data. Based on the recorded video marker jumps, label the data of the jump segment as 1 and the rest as 0.</li>
+                <li>Build the model and training. The reshaped data is normalized and put into the RNN network for training.</li>
+            </ul> -->
+            
+			
+            <br>
+            <br>
+            
+            <!-- <h3><b>Mean Average Precision(MAP) Evaluation</b></h3> -->
+            
+            </section>
+
+        </article>
+        
+		
+			
+		
+	</body>
+</html>
